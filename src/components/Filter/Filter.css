@@ -1,0 +1,93 @@
+.filter-container{
+    background-color: #FFFFFF;
+    padding: 12px 24px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+}
+.filter-options{
+    border-style: solid;
+    display: inline-block;
+    margin-right: 12px;
+    border-width: 0px;
+    border-right-width: 2px;
+    border-color: rgb(228, 225, 225);
+}
+.filter-heading{
+    font-size: 12px;
+    color: gray;
+}
+.filter-value{
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+.filter-drop-down{
+    position: absolute;
+    height: 20%;
+    z-index: 2;
+    overflow: scroll;
+    
+}
+.custom-modal{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+
+}
+.filter-modal{
+    position: absolute;
+    height: 80%;
+    background-color: #FFFFFF;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 80%;
+    text-align: center;
+    padding: 18px;
+    overflow: scroll;
+}
+.modal-options{
+    border-style: solid;
+    padding: 12px;
+    border-width: 0px;
+    border-bottom-width: 2px;
+    border-color: gray;
+    cursor: pointer;
+    margin: 0px;
+}
+.modal-options:hover{
+    background-color: rgba(137, 43, 226, 0.367);
+}
+.filter-active{
+
+}
+.filter-button{ 
+}
+.locations-options{
+    cursor: pointer;
+
+
+}
+@media (max-width:768px) {
+    .filter-container{
+        display: inline-block;
+    }
+    .filter-options{
+        display: inline-block;
+    }
+}
+::-webkit-scrollbar{
+    display: none;
+}
