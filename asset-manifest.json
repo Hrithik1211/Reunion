@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Reunion/static/css/main.1c59157a.css",
+    "main.js": "/Reunion/static/js/main.7860d582.js",
+    "static/js/787.60ff7daf.chunk.js": "/Reunion/static/js/787.60ff7daf.chunk.js",
+    "index.html": "/Reunion/index.html",
+    "main.1c59157a.css.map": "/Reunion/static/css/main.1c59157a.css.map",
+    "main.7860d582.js.map": "/Reunion/static/js/main.7860d582.js.map",
+    "787.60ff7daf.chunk.js.map": "/Reunion/static/js/787.60ff7daf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c59157a.css",
+    "static/js/main.7860d582.js"
+  ]
+}
